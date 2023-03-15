@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.profileCont {
+  display: flex;
+  align-items: start;
+  margin: 5%;
+
+}
+
+.profileInfo {
+  text-align: start;
+  margin: 0 0 0 10px ;
+}
+
+.profileInfo p {
+  margin-top: 0;
+}
