@@ -11,6 +11,8 @@ import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
 import NumbersList from './components/NumbersList';
+import Facebook from './components/Facebook';
+
 
 function App() {
   const images=[
@@ -23,6 +25,9 @@ function App() {
 
   return (
     <div className="App">
+      <Facebook/>
+
+      
       <NumbersList limit={12} />
 
       <LikeButton />

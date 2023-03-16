@@ -77,3 +77,24 @@ code {
 .CarouselBtns button {
   margin: 10px;
 }
+
+/* NumbersList */
+
+.NumbersList tbody {
+  display: flex;
+}
+
+.FacebookProfile {
+  display: flex;
+  border: solid 1px black;
+  margin: 10px
+}
+
+.FacebookImg img {
+  height: 150px;
+  margin: 10px
+}
+
+.FacebookData {
+  text-align: left;
+}
