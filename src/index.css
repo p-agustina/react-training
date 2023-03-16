@@ -27,3 +27,53 @@ code {
 .profileInfo p {
   margin-top: 0;
 }
+
+/* DriverCard */
+
+.DriverCardImg img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.DriverCardCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #455EB5;
+  border-radius: 20px;
+}
+
+.DriverCardText{
+  text-align: left;
+  margin-left: 10px;
+  color: white;
+}
+
+/* Clickable img */
+
+.ClickableImg img {
+  height: 200px;
+}
+
+/* Dice */
+
+.Dice img {
+  height: 200px;
+}
+
+/* Carousel */
+
+.Carousel {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.CarouselImg img {
+  height: 200px;
+}
+
+.CarouselBtns button {
+  margin: 10px;
+}
