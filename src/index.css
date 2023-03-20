@@ -97,4 +97,31 @@ code {
 
 .FacebookData {
   text-align: left;
+  margin-left: 10px;
+}
+
+/* SignupPage */
+
+.SignupContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 50%;
+}
+
+.SignupContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.SignupContainer input button select {
+  margin: 10px;
+}
+
+input.valid {
+  border: 1px solid green;
+}
+
+input.invalid {
+  border: 1px solid red;
 }

@@ -12,7 +12,7 @@ import Dice from './components/Dice';
 import Carousel from './components/Carousel';
 import NumbersList from './components/NumbersList';
 import Facebook from './components/Facebook';
-
+import SignupPage from './components/SignupPage';
 
 function App() {
   const images=[
@@ -25,6 +25,8 @@ function App() {
 
   return (
     <div className="App">
+      <SignupPage/>
+
       <Facebook/>
 
       
